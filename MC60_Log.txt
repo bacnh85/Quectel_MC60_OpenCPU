@@ -1,0 +1,69 @@
+[2019-04-19_15:36:33:552]OpenCPU: GPRS/SMS application note
+[2019-04-19_15:36:33:552]<-- RIL is ready -->
+[2019-04-19_15:36:33:661]<-- GSM network status:2 -->
+[2019-04-19_15:36:33:661]<-- GPRS network status:0 -->
+[2019-04-19_15:36:34:006]<-- CFUN Status:1 -->
+[2019-04-19_15:36:34:301]<-- SIM card is ready -->
+[2019-04-19_15:36:34:380]<-- GPRS network status:2 -->
+[2019-04-19_15:36:37:474]<-- Sys Init Status 2 -->
+[2019-04-19_15:36:39:052]<-- Sys Init Status 3 -->
+
+[2019-04-19_15:36:39:052]<-- SMS module is ready -->
+
+[2019-04-19_15:36:39:052]<-- Initialize SMS-related options -->
+[2019-04-19_15:36:39:052]Delete all existed messages
+[2019-04-19_15:36:39:052]< Send Normal Text SMS begin... >
+[2019-04-19_15:36:45:240]< Send Text SMS successfully, MsgRef:23 >
+[2019-04-19_15:36:45:240]<-- Module has registered to GSM network -->
+[2019-04-19_15:36:49:989]<-- Module has registered to GPRS network -->
+[2019-04-19_15:36:50:021]<-- Register GPRS callback function -->
+[2019-04-19_15:36:50:021]<-- Configure PDP context -->
+[2019-04-19_15:36:50:021]<-- Activating GPRS... -->
+[2019-04-19_15:36:50:364]<-- Activate GPRS successfully. -->
+
+[2019-04-19_15:36:50:364]<-- Register socket callback function -->
+[2019-04-19_15:36:50:364]<-- Create socket successfully, socket id=0. -->
+[2019-04-19_15:36:50:364]<-- Convert Ip Address successfully,m_ipaddress=14,232,38,62 -->
+[2019-04-19_15:36:50:364]<-- Connecting to server(IP:14.232.38.62, port:2001)... -->
+[2019-04-19_15:36:50:786]<-- Connect to server successfully -->
+[2019-04-19_15:36:50:786]<-- Sending data(len=13): A B C D E F G-->
+[2019-04-19_15:36:50:786]<-- Send socket data successfully. --> 
+[2019-04-19_15:36:50:786]<-- Current ACK Number:0/13 --> 
+[2019-04-19_15:36:51:286]<-- Current ACK Number:13/13 --> 
+[2019-04-19_15:36:51:817]<-- Server has received all data --> 
+
+[2019-04-19_15:36:51:817]<--Register: timerId=258, param = 0,ret = 0 -->
+
+[2019-04-19_15:36:51:817]<--stack timer Ql_Timer_Start(ID=258,Interval=30000,) ret=0-->
+[2019-04-19_15:36:51:817]< Finish >
+[2019-04-19_15:36:51:817]<-- Receive data from server,len(13):A B C D E F G
+[2019-04-19_15:37:21:802]<-- stack Timer_handler, param:1 -->
+[2019-04-19_15:37:21:818]<-- Sending data(len=12): Data ID = 1 -->
+[2019-04-19_15:37:21:818]<-- Send socket data successfully. --> 
+[2019-04-19_15:37:21:818]<-- Current ACK Number:13/12 --> 
+[2019-04-19_15:37:22:317]<-- Current ACK Number:13/12 --> 
+[2019-04-19_15:37:22:818]<-- Current ACK Number:25/12 --> 
+[2019-04-19_15:37:23:333]<-- Server has received all data --> 
+[2019-04-19_15:37:23:333]<-- Receive data from server,len(12):Data ID = 1 
+[2019-04-19_15:37:48:349]
+[2019-04-19_15:37:48:349]<-- New SMS Arrives: index=1
+[2019-04-19_15:37:48:396]<-- RIL_SMS_ReadSMS_Text OK. eCharSet:LIB_SMS_CHARSET_GSM,nIndex:1 -->
+[2019-04-19_15:37:48:443]status:0,type:0,alpha:0,sca:+84980200625,oa:+84915560511,scts:19/04/19,15:37:45+28,data length:17
+[2019-04-19_15:37:48:443]data = Hello from HaiBac
+[2019-04-19_15:37:53:364]<-- stack Timer_handler, param:2 -->
+[2019-04-19_15:37:53:364]<-- Sending data(len=12): Data ID = 2 -->
+[2019-04-19_15:37:53:364]<-- Send socket data successfully. --> 
+[2019-04-19_15:37:53:364]<-- Current ACK Number:25/12 --> 
+[2019-04-19_15:37:53:880]<-- Current ACK Number:25/12 --> 
+[2019-04-19_15:37:54:380]<-- Current ACK Number:37/12 --> 
+[2019-04-19_15:37:54:849]<-- Server has received all data --> 
+[2019-04-19_15:37:54:865]<-- Receive data from server,len(12):Data ID = 2 
+[2019-04-19_15:38:12:443]<-- Coming call, number:0915560511, type:129 -->
+[2019-04-19_15:38:15:848]<-- Call state:3
+[2019-04-19_15:38:24:911]<-- stack Timer_handler, param:3 -->
+[2019-04-19_15:38:24:911]<-- Sending data(len=12): Data ID = 3 -->
+[2019-04-19_15:38:24:911]<-- Send socket data successfully. --> 
+[2019-04-19_15:38:24:911]<-- Current ACK Number:37/12 --> 
+[2019-04-19_15:38:25:412]<-- Current ACK Number:37/12 --> 
+[2019-04-19_15:38:25:895]<-- Current ACK Number:49/12 --> 
+[2019-04-19_15:38:26:411]<-- Server has received all data --> 
